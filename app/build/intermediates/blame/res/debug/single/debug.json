@@ -1148,6 +1148,10 @@
         "source": "/Users/bodeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c88086138525b9ff99089b87d25c7732/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/Users/bodeng/Documents/GitHub/Bo_Playhouse/app/build/intermediates/res/merged/debug/layout_activity_bop_it.xml.flat",
+        "source": "/Users/bodeng/Documents/GitHub/Bo_Playhouse/app/src/main/res/layout/activity_bop_it.xml"
+    },
+    {
         "merged": "/Users/bodeng/Documents/GitHub/Bo_Playhouse/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/bodeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c88086138525b9ff99089b87d25c7732/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png"
     },

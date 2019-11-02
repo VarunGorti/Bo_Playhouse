@@ -23,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.bodeng.boplayhouse.BopItActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
