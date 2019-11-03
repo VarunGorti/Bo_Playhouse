@@ -9,19 +9,27 @@
     </style>
 
     <style name="Button.Red" parent="ThemeOverlay.AppCompat">
-        <item name="colorAccent">@color/colorRed</item>
+        <item name="colorPrimary">@android:color/holo_red_dark</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
     </style>
 
     <style name="Button.Blue" parent="ThemeOverlay.AppCompat">
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlue</item>
         <item name="colorAccent">@color/colorBlue</item>
     </style>
 
     <style name="Button.Green" parent="ThemeOverlay.AppCompat">
         <item name="colorAccent">@color/colorGreen</item>
+        <item name="colorPrimary">@color/colorGreen</item>
+        <item name="colorPrimaryDark">@color/colorGreen</item>
     </style>
 
     <style name="Button.Purple" parent="ThemeOverlay.AppCompat">
         <item name="colorAccent">@color/colorPurple</item>
+        <item name="colorPrimary">@color/colorPurple</item>
+        <item name="colorPrimaryDark">@color/colorPurple</item>
     </style>
 
 </resources>

@@ -10,6 +10,7 @@
         android:id="@+id/button_topleft"
         android:layout_width="@dimen/square_size"
         android:layout_height="@dimen/square_size"
+        android:backgroundTint="@color/colorRed"
         android:onClick="button_topleft_pressed"
         android:theme="@style/Button.Red"
         app:layout_constraintBottom_toTopOf="@+id/button_bottomleft"
@@ -23,6 +24,7 @@
         android:id="@+id/button_topright"
         android:layout_width="@dimen/square_size"
         android:layout_height="@dimen/square_size"
+        android:backgroundTint="@color/colorBlue"
         android:onClick="button_topright_pressed"
         android:theme="@style/Button.Blue"
         app:layout_constraintBottom_toTopOf="@+id/button_bottomright"
@@ -35,6 +37,7 @@
         android:id="@+id/button_bottomleft"
         android:layout_width="@dimen/square_size"
         android:layout_height="@dimen/square_size"
+        android:backgroundTint="@color/colorGreen"
         android:onClick="button_bottomLeft_pressed"
         android:theme="@style/Button.Green"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,6 +50,7 @@
         android:id="@+id/button_bottomright"
         android:layout_width="@dimen/square_size"
         android:layout_height="@dimen/square_size"
+        android:backgroundTint="@color/colorPurple"
         android:onClick="button_bottomRight_pressed"
         android:theme="@style/Button.Purple"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -54,4 +58,25 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button_bottomleft"
         app:layout_constraintTop_toBottomOf="@+id/button_topright" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gameOverText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Game Over"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 </android.support.constraint.ConstraintLayout>
