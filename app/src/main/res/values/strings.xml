@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BoPlayhouse</string>
+    <string name="button_enter">Enter</string>
+    <string name="edit_wordAttempt">Enter a word</string>
+    <string name="edit_wordsCompleted"></string>
+    <string name="button_dummy">Dummy</string>
+    <string name="textView_timeUp">TIME!</string>
+    <string name="textView_score">SCORE: </string>
 </resources>
