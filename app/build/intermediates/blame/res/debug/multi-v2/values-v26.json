@@ -1,10 +1,26 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/bodeng/Documents/GitHub/Bo_Playhouse/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "C:\\Users\\bodeng\\Documents\\GitHub\\Bo_Playhouse\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/bodeng/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c88086138525b9ff99089b87d25c7732/res/values-v26/values-v26.xml",
+                    "source": "C:\\Users\\bodeng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\c88086138525b9ff99089b87d25c7732\\res\\values-v26\\values-v26.xml",
+                    "from": {
+                        "startLines": "2,3,4,8,12,16",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,130,217,431,657,896",
+                        "endLines": "2,3,7,11,15,16",
+                        "endColumns": "74,86,12,12,12,92",
+                        "endOffsets": "125,212,426,652,891,984"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\raymo\\OneDrive\\Documents\\GitHub\\Bo_Playhouse\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\raymo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\7b128e696e14ba040082929fdb080834\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

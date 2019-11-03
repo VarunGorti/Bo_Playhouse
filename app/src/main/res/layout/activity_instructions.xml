@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    tools:context="com.example.bodeng.boplayhouse.InstructionsViewer">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/topBanner"
+        android:layout_width="300dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/turnLister"
+            android:layout_width="300dp"
+            android:layout_height="98dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Player's Turn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/instructions"
+        android:layout_width="300dp"
+        android:layout_height="492dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBanner"
+        app:layout_constraintVertical_bias="0.295">
+
+        <TableLayout
+            android:layout_width="300dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="40dp"
+            android:stretchColumns="0,1,2,3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/p1Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/p2Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/p3Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/p4Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/p1Score"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/p2Score"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/p3Score"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/p4Score"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView" />
+            </TableRow>
+
+        </TableLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="375dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="startGame"
+        android:text="Go!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instructions" />
+</android.support.constraint.ConstraintLayout>

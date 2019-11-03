@@ -16,6 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".EnterNamesActivity">
+        </activity>
+        <activity android:name=".InstructionsViewer">
+        </activity>
+        <activity android:name=".ReactionActivity">
+        </activity>
+        <activity android:name=".ScoreActivity">
+        </activity>
+        <activity android:name=".WordFinderActivity">
+        </activity>
     </application>
+
 
 </manifest>
